@@ -5,7 +5,6 @@ import pymysql
 # create an app
 myapp = Flask(__name__)
 
-
 # DEFINE THE ROUTE/ LINK TO API 
 @myapp.route("/api/get_notes", methods = ["GET"])
 
